@@ -2,8 +2,8 @@
 #PBS -A lisch175
 #PBS -l nodes=1:ppn=2:gpus=1
 #PBS -l pmem=2gb
-#PBS -l walltime=10:00
-#PBS -q testflight-gpu
+#PBS -l walltime=3:10:00
+#PBS -q CUDA
 #PBS -j oe
 #PBS -o T5_Java.out
 
